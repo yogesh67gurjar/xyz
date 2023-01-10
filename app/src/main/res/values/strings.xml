@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">OnBoarding</string>
+
+    <string name="screen1">Upload a Video</string>
+    <string name="screen2">Create a Short</string>
+    <string name="screen3">Go Live</string>
+    <string name="screen1desc">Record a new video orselect a video you already have on your phone</string>
+    <string name="screen2desc">Create, edit, and upload your own short videos</string>
+    <string name="screen3desc">Youtube live streaming allows you to reach your community in real time. Go live on youtube from webcam, mobile and encoder streaming</string>
+    <string name="startDesc">Create a long video or shorts and upload on youtube. interact with your subscribers on youtube live</string>
+
+</resources>
