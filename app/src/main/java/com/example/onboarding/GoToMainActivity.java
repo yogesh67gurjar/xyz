@@ -6,20 +6,20 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-import com.example.onboarding.databinding.ActivityGetStartedBinding;
+import com.example.onboarding.databinding.ActivityGoToMainBinding;
 
-public class GetStarted extends AppCompatActivity {
-    ActivityGetStartedBinding binding;
+public class GoToMainActivity extends AppCompatActivity {
+    ActivityGoToMainBinding binding;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        binding=ActivityGetStartedBinding.inflate(getLayoutInflater());
+        binding=ActivityGoToMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
         binding.startBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(GetStarted.this,MainActivity.class));
+                startActivity(new Intent(GoToMainActivity.this,MainActivity.class));
             }
         });
     }
